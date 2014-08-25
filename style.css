@@ -1,0 +1,22 @@
+
+/**
+ * Pingdom
+ */
+
+.logo[data-logo="Pingdom"] {
+  width: 3.814241486em;
+  /* (12.32/3.23) * (1-.1+.1) - 0 */
+}
+
+.logo[data-logo="Pingdom"] > * {
+  background-image: url(images/logo.svg);
+  margin: .1em 0 -.1em 0;
+}
+
+.logo[data-logo="Pingdom"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Pingdom"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
